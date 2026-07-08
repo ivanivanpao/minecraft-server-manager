@@ -1,0 +1,10 @@
+{
+  "servers": [
+    {
+      "id": "myserver",
+      "display_name": "我的主要伺服器",
+      "container_name": "MyServer",
+      "data_path": "D:/minecraft/data"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# 批次檔必須使用 CRLF 換行，否則 cmd.exe 解析會出錯（會出現變數被打斷等怪異錯誤）
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 其餘文字檔交由 git 自動處理換行
+* text=auto

@@ -1,0 +1,47 @@
+# AI 代理工具的記憶與規則資料夾（本機使用，不納入版控）
+.agents/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 虛擬環境
+venv/
+.venv/
+env/
+ENV/
+
+# 伺服器清單設定（含機器專屬絕對路徑，不進版控；範本 config.example.json 需保留進版控）
+config.json
+
+# 環境變數與敏感設定
+.env
+.env.*
+
+# 測試與快取
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+
+# IDE / 編輯器
+.vscode/
+.idea/
+*.swp
+
+# 作業系統產生的檔案
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 日誌
+*.log

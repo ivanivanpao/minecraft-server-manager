@@ -1,0 +1,14 @@
+# === Web 框架與伺服器 ===
+fastapi              # 提供 REST API 與 WebSocket
+uvicorn[standard]    # 執行 FastAPI 的 ASGI 伺服器;[standard] 內含 websockets 等
+
+# === RCON(送指令進 Minecraft) ===
+mcrcon               # RCON 用戶端
+
+# === Mojang API(線上模式補玩家 UUID) ===
+httpx                # HTTP 用戶端,查 Mojang API
+
+# 備註:
+# - Docker 互動用標準庫 subprocess 呼叫 docker CLI(做法 A),不需額外套件。
+# - docker-py(做法 B)先不做,故不列入。
+# - 前端多語言(i18n)與白天/夜晚主題為原生 JS/CSS,不需 Python 套件。
